@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Sprint_2</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div class="outer_box">
+            <h1>Your Bill </h1>
+
+            <input type="text" id="dish" placeholder="Enter Your DishName">
+            <input type="number" id="qty" placeholder="Enter Quantity">
+            <input type="number" id="rate" placeholder="Price Per Plate">
+            <select id="day">
+                <option value="Select Day">Select Day </option>
+                <option value="Sunday"> Sunday </option>
+                <option value="Monday"> Monday </option>
+                <option value="Tuesday"> Tuesday </option>
+                <option value="Wednesday"> Wednesday </option>
+                <option value="Thursday"> Thursday </option>
+                <option value="Friday"> Friday </option>
+                <option value="Saturday"> Saturday </option>
+
+            </select>
+            <button id="btn" onclick="addItem()"> Submit </button>
+
+            <br>
+            <br>
+
+            <div class="grid-box">
+                <div id="item">
+                    <h4>Your Dishes </h4>
+                    <hr>
+                    
+                </div>
+                <div id="price">
+                     <h4>Price  </h4>
+                     <hr>
+                </div>
+
+                <div id="tax">
+                   <h4> Tax(Rs/-) </h4>
+                   <hr>
+                </div>
+
+                <div id="tip"> 
+                   <h4> Tip </h4>
+                   <hr>
+                </div>
+                <div id="discount">
+                    <h4>Discount</h4>
+                    <hr>
+                </div>
+
+                <div id="total">
+                    <h4>Payable Amount </h4>
+                    <hr>
+                </div>
+
+            </div>
+
+            
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.outer_box{
+    height: 100%;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#btn, select{
+    height: 40px; 
+    border-radius: 5px; 
+    border: 1px solid black;
+    font-size: 20px;  
+    background-color: white;
+    margin: 10px; 
+
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 10px;
+    
+}
+.grid-box div{
+    border: 1px solid black;
+    text-align: center;
+}
+
